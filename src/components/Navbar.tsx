@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Navbar() {
 	return (
 		<header>
@@ -7,9 +9,11 @@ export default function Navbar() {
 						href="https://flowbite.com"
 						className="flex items-center"
 					>
-						<img
+						<Image
 							src="https://flowbite.com/docs/images/logo.svg"
 							className="mr-3 h-6 sm:h-9"
+							height={150}
+							width={150}
 							alt="Branch Logo"
 						/>
 					</a>
