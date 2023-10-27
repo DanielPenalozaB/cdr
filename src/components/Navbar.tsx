@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function Navbar() {
 	return (
-		<header>
+		<header className="fixed top-0 left-0 w-full z-20">
 			<nav className="bg-white border-gray-200 p-6">
-				<div className="flex flex-wrap justify-between items-center h-full">
+				<div className="flex justify-between items-center h-full">
 					<a
 						href="https://flowbite.com"
 						className="flex items-center"
@@ -18,10 +18,9 @@ export default function Navbar() {
 						/>
 					</a>
 					<div
-						className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
-						id="mobile-menu-2"
+						className="flex justify-between items-center w-auto order-1"
 					>
-						<ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+						<ul className="flex font-medium">
 							<li>
 								<a
 									href="#"
