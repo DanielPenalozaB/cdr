@@ -226,7 +226,7 @@ export default function Home() {
                 </div>
             </section>
             <section className="flex flex-col items-center justify-center gap-16 bg-white py-32">
-                <Title value="Peticiones"/>
+                <Title value="Peticiones" />
                 <div className="flex flex-wrap justify-center gap-10">
                     <div className="flex h-min w-[300px] flex-col items-center gap-4 rounded-2xl bg-white p-8 shadow-card 2xl:w-[350px]">
                         <span className="text-2xl uppercase text-gray-500">
@@ -320,6 +320,67 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+            <section className="flex flex-col items-center justify-center gap-10 py-8">
+                <Title value='Galería' />
+                <div className="grid w-full grid-cols-4 gap-4 px-10">
+                    <div className="h-36 w-full cursor-pointer rounded-lg bg-gray-500 p-4 shadow-lg duration-150 hover:scale-105"></div>
+                    <div className="h-36 w-full cursor-pointer rounded-lg bg-gray-500 p-4 shadow-lg duration-150 hover:scale-105"></div>
+                    <div className="h-36 w-full cursor-pointer rounded-lg bg-gray-500 p-4 shadow-lg duration-150 hover:scale-105"></div>
+                    <div className="h-36 w-full cursor-pointer rounded-lg bg-gray-500 p-4 shadow-lg duration-150 hover:scale-105"></div>
+                    <div className="h-36 w-full cursor-pointer rounded-lg bg-gray-500 p-4 shadow-lg duration-150 hover:scale-105"></div>
+                    <div className="h-36 w-full cursor-pointer rounded-lg bg-gray-500 p-4 shadow-lg duration-150 hover:scale-105"></div>
+                    <div className="h-36 w-full cursor-pointer rounded-lg bg-gray-500 p-4 shadow-lg duration-150 hover:scale-105"></div>
+                    <div className="h-36 w-full cursor-pointer rounded-lg bg-gray-500 p-4 shadow-lg duration-150 hover:scale-105"></div>
+                    <div className="h-36 w-full cursor-pointer rounded-lg bg-gray-500 p-4 shadow-lg duration-150 hover:scale-105"></div>
+                    <div className="h-36 w-full cursor-pointer rounded-lg bg-gray-500 p-4 shadow-lg duration-150 hover:scale-105"></div>
+                    <div className="h-36 w-full cursor-pointer rounded-lg bg-gray-500 p-4 shadow-lg duration-150 hover:scale-105"></div>
+                    <div className="h-36 w-full cursor-pointer rounded-lg bg-gray-500 p-4 shadow-lg duration-150 hover:scale-105"></div>
+                </div>
+            </section>
+            <footer className="flex items-center justify-between bg-church-800 p-10 text-white">
+                <div className="h-20 w-20 rounded-full bg-white"></div>
+                <div>
+                    <ul className="flex flex-col gap-4">
+                        <li className="cursor-pointer hover:text-gray-300 hover:underline">
+                            Inicio
+                        </li>
+                        <li className="cursor-pointer hover:text-gray-300 hover:underline">
+                            ¿Quiénes somos?
+                        </li>
+                        <li className="cursor-pointer hover:text-gray-300 hover:underline">
+                            Sedes
+                        </li>
+                        <li className="cursor-pointer hover:text-gray-300 hover:underline">
+                            Ministerios
+                        </li>
+                        <li className="cursor-pointer hover:text-gray-300 hover:underline">
+                            Contáctanos
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul className="flex flex-col gap-4">
+                        <li className="flex gap-2">
+                            <span className="font-semibold">Celular:</span>
+                            <span>315 660 7008</span>
+                        </li>
+                        <li className="flex gap-2">
+                            <span className="font-semibold">Teléfono:</span>
+                            <span>602 436 1501</span>
+                        </li>
+                        <li className="flex gap-2">
+                            <span className="font-semibold">Email:</span>
+                            <span>icccasaderestauracion@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul className="flex gap-4">
+                        <li className="h-10 w-10 rounded-md bg-white"></li>
+                        <li className="h-10 w-10 rounded-md bg-white"></li>
+                    </ul>
+                </div>
+            </footer>
         </>
     )
 }
