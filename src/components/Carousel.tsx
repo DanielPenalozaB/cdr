@@ -41,7 +41,7 @@ export default function Carousel({ children }: { children: React.ReactNode }) {
 	return (
 		<section
 			id="carousel"
-			className="overflow-hidden"
+			className="mt-24 overflow-hidden"
 			onMouseEnter={() => setPaused(true)}
 			onMouseLeave={() => setPaused(false)}
 		>
